@@ -66,12 +66,11 @@ JSON_SCHEMA = """\
 """
 
 
-def next_sunday() -> str:
+def current_week_sunday() -> str:
+    """Return the most recent Sunday (today if today is Sunday)."""
     today = date.today()
-    days_until_sunday = (6 - today.weekday()) % 7
-    if days_until_sunday == 0:
-        days_until_sunday = 7
-    return (today + timedelta(days=days_until_sunday)).isoformat()
+    days_since_sunday = today.weekday() + 1  # Monday=0 … Sunday=6, so +1 wraps Sunday to 0
+    return (today - timedelta(days=days_since_sunday % 7)).isoformat()
 
 
 def build_user_prompt(config: dict, history: list[dict], week_of: str) -> str:
@@ -113,7 +112,7 @@ def extract_json(text: str) -> dict:
 def main() -> None:
     config = yaml.safe_load(CONFIG_PATH.read_text())
     history = load_history()
-    week_of = next_sunday()
+    week_of = os.environ.get("WEEK_OF") or current_week_sunday()
 
     preferred_model = os.environ.get("PLANNING_MODEL", "meta-llama/llama-3.3-70b-instruct:free")
     user_prompt = build_user_prompt(config, history, week_of)
