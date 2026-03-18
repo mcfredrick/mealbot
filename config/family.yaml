@@ -25,9 +25,8 @@ family:
     age_group: toddler
     restrictions:
       - no added salt
-      - no honey
+      - no refined sugar
       - no whole nuts or large hard pieces (choking hazard)
-      - no spicy food
     preferences:
       - finger foods
       - pasta
