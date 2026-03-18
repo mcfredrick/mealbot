@@ -1,0 +1,7 @@
+baseURL = "https://YOUR_USERNAME.github.io/mealplan/"
+languageCode = "en-us"
+title = "Weekly Meal Plan"
+theme = "mealplan"
+
+[markup.goldmark.renderer]
+  unsafe = true

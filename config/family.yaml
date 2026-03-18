@@ -1,0 +1,39 @@
+family:
+  - name: Matt
+    restrictions: []
+    preferences:
+      - spicy food
+      - asian cuisine
+      - grilling
+  - name: Sarah
+    restrictions:
+      - vegetarian
+    preferences:
+      - mediterranean
+      - salads
+  - name: Jake
+    restrictions:
+      - tree nut allergy
+    preferences:
+      - mild flavors
+      - pasta
+      - pizza
+
+meal_plan:
+  days:
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    - Sunday
+  meal: dinner  # currently only planning dinners
+
+prep_sessions:
+  - label: Weekend Prep
+    day: Sunday
+    max_hours: 3
+  - label: Midweek Prep
+    day: Wednesday
+    max_hours: 1.5
