@@ -12,7 +12,7 @@ MODELS_URL = "https://openrouter.ai/api/v1/models"
 def build_headers(api_key: str) -> dict:
     return {
         "Authorization": f"Bearer {api_key}",
-        "HTTP-Referer": "https://github.com/YOUR_USERNAME/mealplan",
+        "HTTP-Referer": "https://github.com/mcfredrick/mealbot",
         "X-Title": "Meal Planner Agent",
     }
 

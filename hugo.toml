@@ -1,4 +1,4 @@
-baseURL = "https://YOUR_USERNAME.github.io/mealplan/"
+baseURL = "https://mcfredrick.github.io/mealbot/"
 languageCode = "en-us"
 title = "Weekly Meal Plan"
 theme = "mealplan"
