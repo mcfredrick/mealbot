@@ -1,23 +1,50 @@
 family:
   - name: Matt
-    restrictions: []
-    preferences:
-      - spicy food
-      - asian cuisine
-      - grilling
-  - name: Sarah
+    age_group: adult
     restrictions:
+      - gluten free
       - vegetarian
     preferences:
-      - mediterranean
-      - salads
-  - name: Jake
+      - low/no dairy
+      - spicy food
+      - international
+      - protein rich
+      - comfort food
+  - name: Lara
+    age_group: adult
     restrictions:
-      - tree nut allergy
+      - flexatarian (occasional meat)
     preferences:
-      - mild flavors
+      - protein rich
+      - spicy
+      - international
+      - comfort food
+      - salads
+      - fish
+  - name: Isla
+    age_group: toddler
+    restrictions:
+      - no added salt
+      - no honey
+      - no whole nuts or large hard pieces (choking hazard)
+      - no spicy food
+    preferences:
+      - finger foods
       - pasta
-      - pizza
+      - fruits
+      - vegetables
+    notes: >
+      Toddler portion is roughly 1/4 of an adult serving.
+      Note any ingredients that need different prep for Isla
+      (veg cut small, sauce on the side, spice added at table for adults).
+
+nutrition_goals:
+  - complete protein in every dinner (legumes, eggs, dairy, or fish/meat for Lara)
+  - at least one serving of vegetables per meal
+  - whole grains preferred over refined; all grains must be gluten-free
+  - healthy fats (olive oil, avocado) over saturated fats; low/no dairy
+  - minimize added sugar and processed ingredients
+  - toddler-friendly: iron-rich foods several times a week (lentils, beans, leafy greens, eggs)
 
 meal_plan:
   days:
