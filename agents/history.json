@@ -1,6 +1,18 @@
 {
   "meals": [
     {
+      "week_of": "2026-04-05",
+      "names": [
+        "Red Lentil & Coconut Dal with Cauliflower",
+        "Sheet Pan Salmon and Rainbow Veggies",
+        "GF Corn Pasta with Creamy Avocado Sauce",
+        "Black Bean and Sweet Potato Grain Bowls",
+        "Thai-Style Red Curry with Tofu",
+        "Mediterranean Stuffed Bell Peppers",
+        "Sweet Potato & Black Bean Quesadillas"
+      ]
+    },
+    {
       "week_of": "2026-03-15",
       "names": [
         "Tofu Veggie Stir-fry with Rice",
