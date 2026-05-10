@@ -1,6 +1,18 @@
 {
   "meals": [
     {
+      "week_of": "2026-05-03",
+      "names": [
+        "Spicy Peanut Noodle Bowls with Crispy Tofu",
+        "Miso-Glazed Eggplant and Rice Bowls",
+        "Coconut Chickpea Curry",
+        "Mushroom & Lentil Bolognese",
+        "Fish Tacos with Mango Salsa",
+        "Mediterranean Stuffed Peppers",
+        "Spicy Black Bean Soup"
+      ]
+    },
+    {
       "week_of": "2026-04-05",
       "names": [
         "Red Lentil & Coconut Dal with Cauliflower",
